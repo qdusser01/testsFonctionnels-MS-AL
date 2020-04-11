@@ -15,7 +15,7 @@ public class TestInteraction {
 
 		@Test
 		public void monPremierTest () {
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 			
 			WebDriver driver = new ChromeDriver();
 			

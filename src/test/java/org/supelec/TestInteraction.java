@@ -23,7 +23,7 @@ public class TestInteraction {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 			//ACTION 1
-			driver.get("http://86.242.1.1/jpetstore/actions/Account.action?signonForm=");
+			driver.get("https://petstore.octoperf.com/actions/Account.action;?signonForm=");
 			WebElement champ_login = driver.findElement(By.name("username"));
 			champ_login.clear();
 			champ_login.sendKeys("j2ee");
